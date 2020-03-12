@@ -1,0 +1,292 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    .list {
+        margin-top: -1em;
+        margin-left: 12em;
+    }
+    .sign {
+        float: right;
+        position: relative;
+        top: 0em;
+        right: 2em;
+    }
+    .sign-in {
+        float: right;
+        position: relative;
+        top: 0em;
+        right: 3em;
+    }
+    .img-logo {
+        border-radius: 80px;
+        position: relative;
+        top: 24px;
+        margin-left: 80px;
+    }
+    header {
+        background-image: url(../image/hero.jpg);
+        height: 24em;
+        background-size: cover;
+        background-position: center;
+    }
+    .row-message {
+        margin-top: 11%;
+        margin-left: 1em;
+    }
+    .submit {
+        font-size: 26px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        color: #fff;
+        border: 2px solid #f7a90b;
+        background-color: #f7a90b;
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        margin-left: 6px;
+    }
+    .row-pictures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 133px;
+        margin-left: 20%;
+    }
+    .text {
+        display: column;
+        margin: 100px;
+        margin-bottom: 8em;
+    }
+    .undraw {
+        margin-left: -38px;
+        width: 74%;
+    }
+    .become {
+        font-size: 51px;
+        margin-left: -44px;
+    }
+    .dasher {
+        margin-left: -44px;
+        font-size: 37px;
+    }
+    .start {
+        font-size: 30px;
+        margin-left: -33px;
+    } 
+    .row-resturant {
+        flex-flow: column-reverse;
+    } 
+    .pics {
+        width: 89%;
+        margin-left: 5%;
+    }
+    .resty {
+        margin-top: 115px;
+        line-height: 36px;
+        margin-left: 69px;
+    }
+    .every {
+        font-size: 57px; 
+    }
+    .row-meal{
+        flex-flow: column;
+    } 
+    .from {
+        font-size: 36px;
+        margin-top: 20px;
+        line-height: 59px;
+    }
+    .btn {
+        font-size: 39px;
+        margin-bottom: 7%;
+    } 
+    .fooood {
+        margin-left: 79px;
+        width: 84%;
+    }
+    .stuff {
+        margin-left: 109px;
+        margin-top: 67px;
+    }
+    .got {
+        font-size: 51px;
+    }  
+    .deliver {
+        margin-top: 20px;
+        font-size: 32px;
+        line-height: 51px;
+    }
+    .btn-click {
+        font-size: 38px;
+        margin-bottom: 3%;
+    }
+    .floot {
+        font-size: 22px;
+        white-space: nowrap;
+    }
+    .security {
+        display: none;
+    } 
+    footer {
+        background-color: black;
+        opacity: .8;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }     
+             
+
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    .list {
+        margin-top: -1em;
+        margin-left: 12em;
+    }
+    .sign {
+        float: right;
+        position: relative;
+        top: 0em;
+        right: 2em;
+    }  
+    .sign-in {
+        float: right;
+        position: relative;
+        top: 0em;
+        right: 3em;
+    }
+    .img-logo {
+        border-radius: 80px;
+        position: relative;
+        top: 24px;
+        margin-left: 80px;
+    }   
+    header {
+        background-image: url(../image/hero.jpg);
+        height: 24em;
+        background-size: cover;
+        background-position: center;
+    }
+    .row-message {
+        margin-top: 11%;
+        margin-left: 1em;
+    }
+    .submit {
+        font-size: 26px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        color: #fff;
+        border: 2px solid #f7a90b;
+        background-color: #f7a90b;
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        margin-left: 6px;
+    }
+    .row-pictures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 133px;
+        margin-left: 20%;
+    }
+    .undraw {
+        margin-left: -38px;
+        width: 74%;
+    }
+    .become {
+        font-size: 51px;
+        margin-left: -44px;
+    }
+    .dasher {
+        margin-left: -44px;
+        font-size: 37px;
+    } 
+    .start {
+        font-size: 30px;
+        margin-left: -33px;
+    }
+    .row-resturant {
+        flex-flow: column-reverse;
+    }
+    .pics {
+        width: 89%;
+        margin-left: 5%;
+    }
+    .resty {
+        margin-top: 115px;
+        line-height: 36px;
+        margin-left: 69px;
+    }
+    .every {
+        font-size: 57px; 
+    }
+    .row-meal{
+        flex-flow: column;
+    }
+    .from {
+        font-size: 36px;
+        margin-top: 20px;
+        line-height: 59px;
+    }
+    .btn {
+        font-size: 39px;
+        margin-bottom: 7%;
+    }
+    .fooood {
+        margin-left: 79px;
+        width: 84%;
+    }
+    .stuff {
+        margin-left: 109px;
+        margin-top: 67px;
+    }
+    .got {
+        font-size: 51px;
+    } 
+    .deliver {
+        margin-top: 20px;
+        font-size: 32px;
+        line-height: 51px;
+    } 
+    .btn-click {
+        font-size: 38px;
+        margin-bottom: 3%;
+    }
+    .floot {
+        font-size: 22px;
+        white-space: nowrap;
+    } 
+    .security {
+        display: none;
+    }  
+    .text {
+        display: column;
+        margin: 100px;
+        margin-bottom: 8em;
+    }
+    footer {
+        background-color: black;
+        opacity: .8;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }       
+   
+    
+    
+
+
+}
+
+/*small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+
+
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    
+}
